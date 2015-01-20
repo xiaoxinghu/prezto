@@ -4,7 +4,7 @@ setopt EXTENDED_GLOB
 
 home="${ZDOTDIR:-$HOME}/.zprezto"
 if [[ -a "$home" ]]; then
-  rm $home
+  rm -rf $home
 fi
 
 ln -s "$(pwd -P)" "$home"

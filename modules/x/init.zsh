@@ -4,3 +4,9 @@ if [[ "$OSTYPE" == darwin* ]]; then
   export ANDROID_HOME=/usr/local/opt/android-sdk
   fpath=(/usr/local/share/zsh-completions $fpath)
 fi
+
+#
+# Aliases
+#
+
+alias em='emacsclient'

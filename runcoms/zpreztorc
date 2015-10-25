@@ -35,6 +35,8 @@ zstyle ':prezto:load' pmodule \
   'prompt' \
   'git' \
   'ruby' \
+  'tmux' \
+  'osx' \
   'x'
 
 #

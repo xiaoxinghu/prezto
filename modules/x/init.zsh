@@ -9,5 +9,8 @@ fi
 # Aliases
 #
 
-alias em='emacsclient -c -n'
+# for terminal
+alias em='emacsclient -t'
+
+# for GUI
 # alias emacs='emacsclient -c -n'

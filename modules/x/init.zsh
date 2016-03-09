@@ -9,8 +9,14 @@ fi
 # Aliases
 #
 
+# Emacs
+
 # for terminal
 alias em='emacsclient -t'
 
 # for GUI
 # alias emacs='emacsclient -c -n'
+
+# The Fuck
+# alias fuck='sudo $(history -p \!\!)'
+alias fuck='sudo $(fc -ln -1)'
